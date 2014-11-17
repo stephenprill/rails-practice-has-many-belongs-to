@@ -12,6 +12,7 @@
   </thead>
   <tbody>
     <% @cats.each do |cat| %>
+    
       <tr>
         <td>
           <%= link_to cat.name, cat_path(cat) %>
