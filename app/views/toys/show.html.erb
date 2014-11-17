@@ -5,5 +5,5 @@
 <h3>This toy belongs to...</h3>
 
 <div class="well">
-  <%= link_to "Cat Name", cat_path(@toy.cat.name) %> 
+  <%= link_to @toy.cat.name, cat_path(@toy.cat.name) %> 
 </div>

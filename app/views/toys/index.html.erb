@@ -13,7 +13,7 @@
     <% @toys.each do |toy| %>
       <tr>
         <td>
-          <%= link_to toy.name, toy_path(toy) %>
+          <%= link_to toy.name, toy_path(toy.cat) %>
         </td>
         <td>
           <em><%= toy.cat.name %></em>
